@@ -50,7 +50,7 @@ Keep the table design strictly in HTML for simplicity.
 ## HTML Code:
 ```
 <!DOCTYPE html>
-<html lang=""en>
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
@@ -59,13 +59,13 @@ Keep the table design strictly in HTML for simplicity.
     <body>
         <table cellspacing="5" cellpadding="4" border="3" bgcolor="lightblue">
             <caption>PRODUCT DETAILS</caption>
-            <thread bgcolor="lightpink">
+            <thead bgcolor="lightpink">
                 <tr>
                     <th>Product Name</th>
                     <th>Product Price</th>
                     <th>Description</th>
                 </tr>
-            </thread>
+            </thead>
             <tbody>
                 <tr>
                     <td>Pizza</td>
